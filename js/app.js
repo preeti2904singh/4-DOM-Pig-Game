@@ -21,7 +21,7 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
         //2. Display the result
         var diceDom = document.querySelector(".dice");
         diceDom.style.display = "block";
-        diceDom.src = "dice-" + dice + ".png";
+        diceDom.src = "img/dice-" + dice + ".png";
 
         //3. Update the round score IF the rolled nnumber was not 1
         if(dice !== 1) {
